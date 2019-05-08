@@ -1,0 +1,56 @@
+{
+  "general": {
+    "hello": "hello."
+  },
+  "error": {
+    "failed_token_validation": "Impossibile convalidare il token di autenticazione.",
+    "invalid_token": "Token non valido trasmesso su richiesta, prova ad aggiornare o ad accedere di nuovo.",
+    "failed_user_authenticate": "Impossibile autenticare l'utente.",
+    "token_session_expired": "La sessione corrente è scaduta, effettua nuovamente il login per continuare a utilizzare il servizio.",
+    "token_malformed": "Il token fornito era in un formato che non poteva essere elaborato, per favore prova ad accedere di nuovo.",
+    "invalid_missing_signature": "Per convalidare il token è stata utilizzata una firma mancante o non valida, per favore riprova.",
+    "something_wrong": "Qualcosa è andato storto.",
+    "unavailable_service": "Servizio non disponibile."
+  },
+  "user": {
+    "authenticated": "Utente <u> autenticato.",
+    "token_refresh": "Token utente <u> aggiornato.",
+    "username_required": "Il nome utente è obbligatorio.",
+    "invalid_username_admin": "nome utente contiene admin e non è permesso, per favore riprova.",
+    "login_details_required": "Il nome utente è obbligatorio e la password è richiesta.",
+    "invalid_password_length_all": "La password non può essere maggiore di 24 o inferiore a 5 caratteri.",
+    "invalid_username_length_all": "Il nome utente non può essere maggiore di 16 o inferiore a 5 caratteri.",
+    "incorrect_password": "La password fornita era errata.",
+    "user_update_password_required": "Devono essere forniti sia oldPassword sia la password.",
+    "failed_user_creation": "Impossibile creare un nuovo utente con nome utente <u>.",
+    "failed_user_validation": "Impossibile validare il nome utente <u>.",
+    "failed_password_update": "Impossibile aggiornare la password.",
+    "username_already_exists": "Il nome utente <u> esiste già.",
+    "username_does_not_exist": "Il nome utente <u> non esiste."
+  },
+  "news": {
+    "no_country_code": "Un codice del paese non è stato approvato.",
+    "no_country_code_or_category": "Non è stato passato un codice o una categoria di paese."
+  },
+  "weather": {
+    "no_city_name": "Non è stato passato un nome di città.",
+    "no_city_name_and_no_code": "Non è stato passato un nome o un codice di città."
+  },
+  "workstation": {
+    "id_required": "L'ID della workstation è richiesto.",
+    "workstation_gather_public_page": "ID workstation e nome utente utente richiesti.",
+    "workstation_configuration_required": "Una configurazione di workstation vuota non è consentita.",
+    "workstation_display_required": "È richiesto un display di workstation non vuoto valido (stringa).",
+    "workstation_visible_required": "È richiesta una booleana visibile per la workstation valida (booleano).",
+    "workstation_display_already_used": "Il display della workstation è già in uso.",
+    "max_workstation_reached": "Non puoi avere più di 9 workstation.",
+    "invalid_workstation_length": "Una workstation non può avere una dimensione superiore a 6.",
+    "invalid_station_position": "Una workstation non può avere una posizione superiore a 5 o inferiore a 0.",
+    "workstation_does_not_exist": "L'utente <u> non possiede una workstation con l'id di {{ id }}.",
+    "visibility_required": "la proprietà visibile è necessaria per aggiornare la visibilità.",
+    "workstation_configuration_items_missing": "{{ name }} mancano le seguenti configurazioni: {{ missing }}.",
+    "workstation_configuration_missing": "La stazione {{ name }} con posizione {{ position }} non ha una configurazione.",
+    "invalid_station_name": "Una stazione deve avere un nome valido: {{ lista }}.",
+    "workstation_updated": "Workstation aggiornata."
+  }
+}

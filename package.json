@@ -1,0 +1,44 @@
+{
+  "name": "displayables",
+  "version": "1.0.0",
+  "author": "Stephen Lineker-Miller <slinekermiller@gmail.com>",
+  "license": "MIT",
+  "description": "A configurable display based dashboard for creating content for unattended displays.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=PRODUCTION node index",
+    "dev": "nodemon",
+    "setup": "cross-env NODE_ENV=PRODUCTION node ./setup/index",
+    "setup:dev": "node ./setup/index",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "cloc": "npx cloc . --exclude-dir=node_modules,dist --not-match-f=package-lock"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.3.2",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.3",
+    "lodash": "^4.17.11",
+    "simple-google-openid": "^0.2.3",
+    "sqlite3": "^4.0.6",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
+  }
+}

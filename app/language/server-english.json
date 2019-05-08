@@ -1,0 +1,56 @@
+{
+  "general": {
+    "hello": "hello."
+  },
+  "error": {
+    "failed_token_validation": "Failed to validate authentication token.",
+    "invalid_token": "Invalid token passed on request, try refreshing or logging in again.",
+    "failed_user_authenticate": "Failed to authenticate user.",
+    "token_session_expired": "Your current session has expired, please login again to continue using the service.",
+    "token_malformed": "The token provided was in a format that could not be processed, please try logging in again.",
+    "invalid_missing_signature": "A missing or invalid signature was used to validate the token, please try again.",
+    "something_wrong": "Something went wrong.",
+    "unavailable_service": "Unavailable Service."
+  },
+  "user": {
+    "authenticated": "User <n> authenticated.",
+    "token_refresh": "User <n> token refreshed.",
+    "username_required": "The username is required.",
+    "invalid_username_admin": "username contains admin and is not allowed, please try again.",
+    "login_details_required": "The username is required && the password is required.",
+    "invalid_password_length_all": "Password cannot be greater than 24 or less than 5 characters.",
+    "invalid_username_length_all": "Username cannot be greater than 16 or less than 5 characters.",
+    "incorrect_password": "The password provided was incorrect.",
+    "user_update_password_required": "Both oldPassword and password need to be provided.",
+    "failed_user_creation": "Failed to create new user with username <n>.",
+    "failed_user_validation": "Failed to validate username <n>.",
+    "failed_password_update": "Failed to update the password.",
+    "username_already_exists": "The username <n> already exists.",
+    "username_does_not_exist": "The username <n> does not exist."
+  },
+  "news": {
+    "no_country_code": "A country code was not passed.",
+    "no_country_code_or_category": "A country code or category was not passed."
+  },
+  "weather": {
+    "no_city_name": "A city name was not passed.",
+    "no_city_name_and_no_code": "A city name or code was not passed."
+  },
+  "workstation": {
+    "id_required": "Workstation id is required.",
+    "workstation_gather_public_page": "workstation id and user username required.",
+    "workstation_configuration_required": "A empty workstation configuration is not allowed.",
+    "workstation_display_required": "A valid non-empty workstation display is required (string).",
+    "workstation_visible_required": "A valid workstation visible boolean is required (boolean).",
+    "workstation_display_already_used": "The workstation display is already being used.",
+    "max_workstation_reached": "You cannot have more than 9 workstations.",
+    "invalid_workstation_length": "A workstation cannot have a size greater than 6.",
+    "invalid_station_position": "A workstation cannot have a position greater than 5 or less than 0.",
+    "workstation_does_not_exist": "The user <n> does not own a workstation by the id of {{ id }}.",
+    "visibility_required": "visible property is required to update visibility.",
+    "workstation_configuration_items_missing": "{{ name }} is missing the following configurations: {{ missing }}.",
+    "workstation_configuration_missing": "Station {{ name }} with position {{ position }} does not have a configuration.",
+    "invalid_station_name": "A station must have a valid name: {{ list }}.",
+    "workstation_updated": "Workstation Updated."
+  }
+}

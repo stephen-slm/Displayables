@@ -1,0 +1,195 @@
+{
+  "home": {
+    "wow": "Hou la la! La prochaine meilleure chose!",
+    "alreadyUsing": "Vous utilisez déjà Displayables?",
+    "information_now": "Pour information MAINTENANT!",
+    "description": "Dislayables fournit une plate-forme permettant de créer facilement des postes de travail autonomes pouvant être utilisés dans toute la maison, le bureau ou les appartements",
+    "view_example": "Voir un exemple!"
+  },
+  "workstation": {
+    "missingParams": "Ce paramètre d'URL suivant",
+    "is": "est",
+    "sAre": "s sont",
+    "missing": "manquant: {{ params }}"
+  },
+  "pageNotFound": {
+    "notFound": "Page non trouvée",
+    "missing": "La page que vous recherchez n'existe pas ou a été déplacée."
+  },
+  "management": {
+    "noMyPublic": "Vous n'avez pas de poste de travail public.",
+    "noPublic": "Il n’existe actuellement aucun poste de travail public.",
+    "viewEditWorkstation": "Afficher/Modifier le poste de travail",
+    "numPublic": "Mises en page publiques",
+    "numMyLayouts": "Mes mises en page",
+    "numMyPublic": "Mes mises en page publiques",
+    "supportReply": "Merci pour les retours! Je ne répondrai probablement pas.",
+    "totalLayouts": "Total - {{ number }} Layouts",
+    "componentsUsed": "Composants utilisés",
+    "slotsPending": "Machines à sous",
+    "supportMessage": "Si vous avez des problèmes ou de l'aide s'il vous plaît demander ci-dessous et je vous répondrai par e-mail!",
+    "supportNonEmpty": "Veuillez saisir un titre, un e-mail et un corps non vides",
+    "submitTicket": "Envoyer le ticket",
+    "supportTitle": "Titre",
+    "supportEmail": "Email",
+    "supportBody": "Corps"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "management": "La gestion",
+    "allPublicLayouts": "Toutes les mises en page publiques",
+    "allMyLayouts": "Toutes mes mises en page",
+    "myPublicLayouts": "Mes mises en page publiques",
+    "support": "Soutien",
+    "logout": "Connectez - Out"
+  },
+  "general": {
+    "with": "avec",
+    "welcome": "Bienvenue",
+    "welcomeBack": "Nous saluons le retour",
+    "goTo": "Aller à",
+    "hi": "Salut",
+    "go": "Aller",
+    "not": "ne pas",
+    "or": "Ou",
+    "yes": "Oui",
+    "no": "Non"
+  },
+
+  "edit": {
+    "private": "Privé",
+    "public": "Publique",
+    "cancel": "Annuler",
+    "editing": "Édition",
+    "edit": "Modifier",
+    "view": "Vue",
+    "save": "Enregistrer",
+    "add": "Ajouter",
+    "noFree": "Pas de postes libres",
+    "workstation": "Poste de travail",
+    "setVisible": "Le poste de travail est maintenant configuré pour"
+  },
+
+  "login": {
+    "login": "S'identifier",
+    "loginPage": "Page de connexion",
+    "register": "registre",
+    "registerPage": "Page d'inscription",
+    "enterUsername": "Entrez votre nom d'utilisateur",
+    "enterPassword": "Tapez votre mot de passe",
+    "confirmPassword": "Confirmer votre mot de passe",
+    "loggedOut": "Déconnecté!",
+    "doYou": "Veux-tu",
+    "checkingReauth": "Vérification de l'authentification de redirection pour"
+  },
+
+  "errors": {
+    "geolocation": "La collecte de l'emplacement actuel n'est pas prise en charge par votre navigateur.",
+    "ownership": "Vous n'êtes pas autorisé à accéder à ce poste de travail privé. Si vous êtes le propriétaire du poste de travail, assurez-vous d'être connecté.",
+    "emptyUsernameAndPasswordLogin": "Veuillez entrer un nom d'utilisateur et un mot de passe non vides.",
+    "emptyUsernameAndPassword": "Veuillez entrer un nom d'utilisateur non vide, un mot de passe et confirmer le mot de passe.",
+    "nonMatchingPasswords": "Les mots de passe ne correspondent pas",
+    "loadVideoSrc": "Échec du chargement de la source vidéo 😢",
+    "loadImgSrc": "Impossible de charger la source d'image 😢",
+    "loadWeather": "Impossible de charger la météo weather 😢",
+    "loadNews": "Impossible de charger les nouvelles 😢"
+  },
+
+  "success": {
+    "userCreated": "Utilisateur {{ user }} créé! Vous pouvez maintenant vous connecter.",
+    "savedWorkstation": "Station de travail enregistrée avec succès",
+    "createdWorkstation": "Nouveau poste de travail créé avec succès",
+    "deleteWorkstation": "Poste de travail supprimé avec succès"
+  },
+
+  "components": {
+    "missing": {
+      "name": "Manquant",
+      "description": "Cette position est libre, faites glisser un composant ici ou cliquez sur l’une des puces du composant ci-dessus. Si vous ne sélectionnez pas de composant, le composant partenaire sera développé ici."
+    },
+    "position": {
+      "name": "Position",
+      "description": "Le placement du composant sera placé"
+    },
+    "news": {
+      "name": "Nouvelles",
+      "description": "Permet d'afficher les dernières nouvelles en fonction d'un pays et d'une catégorie facultative.",
+      "configurations": {
+        "country": { "name": "Pays", "description": "Le pays à fournir des nouvelles sur." },
+        "category": {
+          "name": "Catégorie",
+          "description": "La catégorie de l'actualité (obligatoirement en anglais)."
+        }
+      }
+    },
+    "weather": {
+      "name": "Météo",
+      "description": "Permet d'afficher la météo d'une ville et l'indicatif de pays facultatif.",
+      "configurations": {
+        "city": { "name": "Ville", "description": "La ville pour recueillir le temps pour." },
+        "code": {
+          "name": "Code",
+          "description": "Code de pays facultatif pour cibler un seul pays (car de nombreux pays ont le même nom de ville)."
+        }
+      }
+    },
+    "countdown": {
+      "name": "Compte à rebours",
+      "description": "Fournit un moyen d’afficher un compte à rebours, en prenant en charge un compte à rebours pour commencer et se terminer.",
+      "configurations": {
+        "title": {
+          "name": "Titre",
+          "description": "Le titre ou le nom du compte à rebours, par exemple Nouvel An."
+        },
+        "start_date": { "name": "Date de début", "description": "La date de début du compte à rebours." },
+        "end_date": { "name": "Date de fin", "description": "La date de fin du compte à rebours." },
+        "start_time": { "name": "Heure de début", "description": "L'heure de début du compte à rebours." },
+        "end_time": { "name": "Heure de fin", "description": "L'heure de fin du compte à rebours." }
+      }
+    },
+    "location": {
+      "name": "Emplacement",
+      "description": "Permet d'afficher un emplacement sur une carte de la page.",
+      "configurations": {
+        "current_location": "Définir l'emplacement actuel",
+        "zoom": {
+          "name": "Zoom",
+          "description": "Le nombre de zoom de combien de zoom sur la carte."
+        },
+        "map": {
+          "name": "Carte",
+          "description": "Le long et la latitude de l'emplacement actuel, faites glisser le marqueur vers l'emplacement sélectionné."
+        },
+        "show_pointer": {
+          "name": "Afficher le pointeur",
+          "description": "Affiche le pointeur sur la carte chargée."
+        }
+      }
+    },
+    "video": {
+      "name": "Vidéo",
+      "description": "Fournit un moyen d'afficher une vidéo sur la page, avec des options pour le son et une lecture sans fin.",
+      "configurations": {
+        "videoSource": {
+          "name": "Source vidéo",
+          "description": "La source de l'emplacement de la vidéo doit être un site Web."
+        },
+        "videoLoop": {
+          "name": "Boucle vidéo",
+          "description": "Si la vidéo doit tourner en boucle sans fin ou doit simplement s’arrêter après un seul passage."
+        },
+        "videoSound": { "name": "Son vidéo", "description": "Si le son de la vidéo doit être joué." }
+      }
+    },
+    "image": {
+      "name": "Image",
+      "description": "Permet d'afficher une image sur la page en fonction de la source fournie.",
+      "configurations": {
+        "imageSrc": {
+          "name": "Image Source",
+          "description": "La source du site Web doit être un site Web."
+        }
+      }
+    }
+  }
+}

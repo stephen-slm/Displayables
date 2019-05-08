@@ -1,0 +1,204 @@
+{
+  "home": {
+    "wow": "Wow! La prossima cosa migliore!",
+    "alreadyUsing": "Stai già utilizzando Displayable?",
+    "information_now": "Per informazioni ORA!",
+    "description": "Dislayables offre una piattaforma per costruire facilmente workstation autonome da utilizzare in tutta la casa, negli uffici o nei condomini!",
+    "view_example": "Guarda l'esempio!"
+  },
+  "workstation": {
+    "missingParams": "Questo seguente parametro url",
+    "is": "è",
+    "sAre": "s sono",
+    "missing": "mancante: {{ params }}"
+  },
+  "pageNotFound": {
+    "notFound": "pagina non trovata",
+    "missing": "La pagina che stai cercando non esiste o è stata spostata."
+  },
+  "management": {
+    "noMyPublic": "Non hai alcuna postazione di lavoro pubblica.",
+    "noPublic": "Attualmente non esistono workstation pubbliche.",
+    "viewEditWorkstation": "Visualizza/Modifica Workstation",
+    "numPublic": "Layout pubblici",
+    "numMyLayouts": "I miei layout",
+    "numMyPublic": "I miei layout pubblici",
+    "supportReply": "Grazie per il feedback! Probabilmente non risponderò.",
+    "totalLayouts": "Totale: {{ number }} layout",
+    "componentsUsed": "Componenti usati",
+    "slotsPending": "Slot in sospeso",
+    "supportMessage": "Se hai qualche problema o aiuto per favore chiedi qui sotto e ti risponderò via email!",
+    "supportNonEmpty": "Inserisci un titolo, un'e-mail e un corpo non vuoti",
+    "submitTicket": "Presentare il biglietto",
+    "supportTitle": "Titolo",
+    "supportEmail": "E-mail",
+    "supportBody": "Corpo"
+  },
+  "navigation": {
+    "home": "Casa",
+    "management": "Gestione",
+    "allPublicLayouts": "Tutti i layout pubblici",
+    "allMyLayouts": "Tutti i miei layout",
+    "myPublicLayouts": "I miei layout pubblicis",
+    "support": "Supporto",
+    "logout": "Disconnettersi"
+  },
+  "general": {
+    "with": "con",
+    "welcome": "benvenuto",
+    "welcomeBack": "Ben tornato",
+    "goTo": "Vai a",
+    "hi": "Ciao",
+    "go": "Partire",
+    "not": "Non",
+    "or": "O",
+    "yes": "Si",
+    "no": "No"
+  },
+
+  "edit": {
+    "private": "Privato",
+    "public": "Pubblico",
+    "cancel": "Annulla",
+    "editing": "La modifica",
+    "edit": "modificare",
+    "view": "vista",
+    "save": "salvare",
+    "add": "Inserisci",
+    "noFree": "Nessuna posizione libera",
+    "workstation": "Postazioni di lavoro",
+    "setVisible": "La workstation è ora impostata su"
+  },
+
+  "login": {
+    "login": "Accesso",
+    "loginPage": "Pagina di login",
+    "register": "Registrare",
+    "registerPage": "Pagina di registrazione",
+    "enterUsername": "Inserisci il tuo nome utente",
+    "enterPassword": "Inserisci la tua password",
+    "confirmPassword": "Conferma la tua password",
+    "loggedOut": "Disconnesso!",
+    "doYou": "vuoi",
+    "checkingReauth": "Verifica dell'autenticazione di reindirizzamento per"
+  },
+
+  "errors": {
+    "geolocation": "La raccolta della posizione corrente non è supportata sul tuo browser.",
+    "ownership": "Non hai il permesso di accedere a questa workstation privata. Se sei il proprietario della workstation, assicurati di aver effettuato l'accesso.",
+    "emptyUsernameAndPasswordLogin": "Inserisci un nome utente e una password non vuoti.",
+    "emptyUsernameAndPassword": "Inserisci un nome utente, una password e una password non vuoti.",
+    "nonMatchingPasswords": "le passwords non corrispondono",
+    "loadVideoSrc": "Impossibile caricare la sorgente video 😢",
+    "loadImgSrc": "Impossibile caricare la sorgente di immagini 😢",
+    "loadWeather": "Impossibile caricare il tempo 😢",
+    "loadNews": "Impossibile caricare le notizie 😢"
+  },
+
+  "success": {
+    "userCreated": "L'utente {{ user }} creato! Ora puoi effettuare il login.",
+    "savedWorkstation": "Workstation salvata correttamente",
+    "createdWorkstation": "Nuova workstation creata con successo",
+    "deleteWorkstation": "Workstation cancellata con successo"
+  },
+
+  "components": {
+    "missing": {
+      "name": "Mancante",
+      "description": "Questa posizione è gratuita, trascina un componente qui o fai clic su uno dei chip componenti sopra. Se non selezioni un componente, il componente del partner si espanderà qui."
+    },
+    "position": {
+      "name": "Posizione",
+      "description": "Il posizionamento del componente verrà inserito"
+    },
+    "news": {
+      "name": "Notizia",
+      "description": "Fornisce un modo per visualizzare le ultime notizie in base a una nazione e una categoria opzionale.",
+      "configurations": {
+        "country": { "name": "Nazione", "description": "Il paese per fornire notizie su." },
+        "category": {
+          "name": "Categoria",
+          "description": "La categoria delle notizie (richiesto per essere in inglese)."
+        }
+      }
+    },
+    "weather": {
+      "name": "Tempo Metereologico",
+      "description": "Fornisce un modo di visualizzare il tempo di una città e il prefisso internazionale facoltativo.",
+      "configurations": {
+        "city": { "name": "Città", "description": "La città per raccogliere il tempo per." },
+        "code": {
+          "name": "Codice",
+          "description": "Il codice paese opzionale per concentrarsi su un singolo paese (a causa di molti paesi con gli stessi nomi di città)."
+        }
+      }
+    },
+    "countdown": {
+      "name": "Conto Alla Rovescia",
+      "description": "Fornisce un modo per visualizzare un conto alla rovescia, supportando un conto alla rovescia per iniziare e terminare.",
+      "configurations": {
+        "title": {
+          "name": "Titolo",
+          "description": "Il titolo o il nome del conto alla rovescia, ad esempio Capodanno."
+        },
+        "start_date": {
+          "name": "Data d'inizio",
+          "description": "La data di inizio del conto alla rovescia."
+        },
+        "end_date": { "name": "Data di fine", "description": "La data di fine del conto alla rovescia." },
+        "start_time": {
+          "name": "Orario di inizio",
+          "description": "L'ora di inizio del conto alla rovescia."
+        },
+        "end_time": { "name": "Fine del tempo", "description": "L'ora di fine del conto alla rovescia." }
+      }
+    },
+    "location": {
+      "name": "Posizione",
+      "description": "Fornisce un modo di visualizzare una posizione su una mappa sulla pagina.",
+      "configurations": {
+        "current_location": "Imposta la posizione corrente",
+        "zoom": {
+          "name": "Zoom",
+          "description": "Il numero di zoom di quanto è necessario ingrandire la mappa."
+        },
+        "map": {
+          "name": "Carta geografica",
+          "description": "La lunga e latitudine della posizione corrente, trascina l'indicatore nella posizione selezionata."
+        },
+        "show_pointer": {
+          "name": "Mostra puntatore",
+          "description": "Mostra il puntatore sulla mappa caricata."
+        }
+      }
+    },
+    "video": {
+      "name": "Video",
+      "description": "Fornisce un modo di visualizzare un video sulla pagina, con opzioni per il suono e la riproduzione senza fine.",
+      "configurations": {
+        "videoSource": {
+          "name": "Sorgente video",
+          "description": "La fonte della posizione del video, questo deve essere un sito web."
+        },
+        "videoLoop": {
+          "name": "Loop Video",
+          "description": "Se il video dovrebbe andare in loop all'infinito o dovrebbe fermarsi dopo una singola corsa."
+        },
+        "videoSound": {
+          "name": "Suono Video",
+          "description": "Se il suono del video deve essere riprodotto."
+        }
+      }
+    },
+    "image": {
+      "name": "Immagine",
+      "description": "Fornisce un modo di visualizzare un'immagine sulla pagina in base all'origine fornita.",
+      "configurations": {
+        "imageSrc": {
+          "name": "Fonte dell'immagine",
+          "description": "La fonte del sito web, questo deve essere un sito web."
+        }
+      }
+    }
+  }
+}

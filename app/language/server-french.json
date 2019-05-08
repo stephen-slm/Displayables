@@ -1,0 +1,56 @@
+{
+  "general": {
+    "hello": "hello."
+  },
+  "error": {
+    "failed_token_validation": "Échec de la validation du jeton d'authentification.",
+    "invalid_token": "Jeton non valide transmis sur demande, essayez d'actualiser ou de vous reconnecter.",
+    "failed_user_authenticate": "Échec de l'authentification de l'utilisateur.",
+    "token_session_expired": "Votre session actuelle a expiré, veuillez vous reconnecter pour continuer à utiliser le service.",
+    "token_malformed": "Le jeton fourni était dans un format qui ne pouvait pas être traité, veuillez essayer de vous reconnecter.",
+    "invalid_missing_signature": "Une signature manquante ou non valide a été utilisée pour valider le jeton. Veuillez réessayer.",
+    "something_wrong": "Quelque chose s'est mal passé.",
+    "unavailable_service": "Service non disponible."
+  },
+  "user": {
+    "authenticated": "Utilisateur <u> authentifié.",
+    "token_refresh": "Utilisateur <u> jeton actualisé.",
+    "username_required": "Le nom d'utilisateur est requis.",
+    "invalid_username_admin": "nom d'utilisateur contient admin et n'est pas autorisé, veuillez réessayer.",
+    "login_details_required": "Le nom d'utilisateur est requis && le mot de passe est requis.",
+    "invalid_password_length_all": "Le mot de passe ne peut pas dépasser 24 caractères ou moins de 5 caractères.",
+    "invalid_username_length_all": "Le nom d'utilisateur ne peut pas comporter plus de 16 caractères ou moins de 5 caractères.",
+    "incorrect_password": "Le mot de passe fourni était incorrect.",
+    "user_update_password_required": "OldPassword et le mot de passe doivent être fournis.",
+    "failed_user_creation": "Impossible de créer un nouvel utilisateur avec le nom d'utilisateur <u>.",
+    "failed_user_validation": "Échec de la validation du nom d'utilisateur <u>.",
+    "failed_password_update": "Impossible de mettre à jour le mot de passe.",
+    "username_already_exists": "Le nom d'utilisateur <u> existe déjà.",
+    "username_does_not_exist": "Le nom d'utilisateur <u> n'existe pas."
+  },
+  "news": {
+    "no_country_code": "Un code de pays n'a pas été passé.",
+    "no_country_code_or_category": "Un code de pays ou une catégorie n'a pas été passé."
+  },
+  "weather": {
+    "no_city_name": "Un nom de ville n'a pas été passé.",
+    "no_city_name_and_no_code": "Un nom de ville ou un code n'a pas été transmis."
+  },
+  "workstation": {
+    "id_required": "L'identifiant du poste de travail est requis.",
+    "workstation_gather_public_page": "Identifiant de poste de travail et nom d'utilisateur requis.",
+    "workstation_configuration_required": "Une configuration de poste de travail vide n'est pas autorisée.",
+    "workstation_display_required": "Un affichage valide du poste de travail non vide est requis (chaîne).",
+    "workstation_visible_required": "Un booléen visible visible sur le poste de travail est requis (booléen).",
+    "workstation_display_already_used": "L’affichage du poste de travail est déjà utilisé.",
+    "max_workstation_reached": "Vous ne pouvez pas avoir plus de 9 postes de travail.",
+    "invalid_workstation_length": "Un poste de travail ne peut pas avoir une taille supérieure à 6.",
+    "invalid_station_position": "Un poste de travail ne peut pas avoir une position supérieure à 5 ou inférieure à 0.",
+    "workstation_does_not_exist": "L'utilisateur <u> ne possède pas de poste de travail avec l'id de {{ id }}.",
+    "visibility_required": "Une propriété visible est requise pour mettre à jour la visibilité.",
+    "workstation_configuration_items_missing": "{{ name }} manque les configurations suivantes: {{ missing }}.",
+    "workstation_configuration_missing": "La station {{ name }} avec la position {{ position }} n'a pas de configuration.",
+    "invalid_station_name": "Une station doit avoir un nom valide: {{ list }}.",
+    "workstation_updated": "Poste de travail mis à jour."
+  }
+}

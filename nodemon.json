@@ -1,0 +1,9 @@
+{
+  "watch": ["**/*.js"],
+  "ext": "js",
+  "ignore": ["./test/*.js"],
+  "exec": "node --inspect index.js",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

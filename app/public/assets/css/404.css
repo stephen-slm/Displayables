@@ -1,0 +1,26 @@
+#app {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-missing {
+  width: 280px;
+  flex-direction: column;
+  text-align: center;
+  margin: 30vh auto auto;
+}
+
+i {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  line-height: 90%;
+  margin-bottom: 10px;
+}

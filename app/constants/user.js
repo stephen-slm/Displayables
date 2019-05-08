@@ -1,0 +1,23 @@
+const NAME_MAX_LENGTH = 50;
+const NAME_MIN_LENGTH = 5;
+const PASSWORD_MAX_LENGTH = 24;
+const PASSWORD_MIN_LENGTH = 5;
+const USERNAME_MAX_LENGTH = 16;
+const USERNAME_MIN_LENGTH = 5;
+
+const PROVIDERS = {
+  LOCAL: 'local',
+  GOOGLE: 'google',
+  FACEBOOK: 'facebook',
+  GITHUB: 'github'
+};
+
+module.exports = {
+  NAME_MAX_LENGTH,
+  NAME_MIN_LENGTH,
+  PASSWORD_MAX_LENGTH,
+  PASSWORD_MIN_LENGTH,
+  USERNAME_MAX_LENGTH,
+  USERNAME_MIN_LENGTH,
+  PROVIDERS
+};

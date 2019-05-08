@@ -1,0 +1,190 @@
+{
+  "home": {
+    "wow": "Wow! The next best thing!",
+    "alreadyUsing": "Already using Displayables?",
+    "information_now": "For information NOW!",
+    "description": "Dislayables provides a platform to easily build autonomous workstations to be used throughout our home, office or apartment buildings!",
+    "view_example": "View Example!"
+  },
+  "workstation": {
+    "missingParams": "This following url parameter",
+    "is": "is",
+    "sAre": "s are",
+    "missing": "missing: {{ params }}"
+  },
+  "pageNotFound": {
+    "notFound": "Page not found",
+    "missing": "The page you are looking for doesn't exist or has been moved."
+  },
+  "management": {
+    "noMyPublic": "You don't have any public workstations.",
+    "noPublic": "No public workstations currently exist.",
+    "viewEditWorkstation": "View/Edit Workstation",
+    "numPublic": "Number of Public Layouts",
+    "numMyLayouts": "Number of My Layouts",
+    "numMyPublic": "Number of My Public Layouts",
+    "supportReply": "Thank you for feedback! I probably won't reply.",
+    "totalLayouts": "Total - {{ number }} Layouts",
+    "componentsUsed": "Components Used",
+    "slotsPending": "Slots Pending",
+    "supportMessage": "If you have any problems or help please ask below and I will email you back!",
+    "supportNonEmpty": "Please enter a non-empty title, email and body",
+    "submitTicket": "Submit Ticket",
+    "supportTitle": "Title",
+    "supportEmail": "Email",
+    "supportBody": "Body"
+  },
+  "navigation": {
+    "home": "Home",
+    "management": "Management",
+    "allPublicLayouts": "All Public Layouts",
+    "allMyLayouts": "All My Layouts",
+    "myPublicLayouts": "My Public Layouts",
+    "support": "Support",
+    "logout": "Log Out"
+  },
+  "general": {
+    "with": "with",
+    "onbeforeunload": "bleh",
+    "welcome": "Welcome",
+    "welcomeBack": "Welcome Back",
+    "goTo": "Go to",
+    "hi": "Hi",
+    "go": "Go",
+    "not": "Not",
+    "or": "Or",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "edit": {
+    "private": "Private",
+    "public": "Public",
+    "cancel": "Cancel",
+    "editing": "Editing",
+    "edit": "Edit",
+    "view": "View",
+    "save": "Save",
+    "add": "Add",
+    "noFree": "No free positions",
+    "workstation": "Workstation",
+    "setVisible": "Workstation is now set to"
+  },
+
+  "login": {
+    "login": "Login",
+    "loginPage": "Login Page",
+    "register": "Register",
+    "registerPage": "Register Page",
+    "enterUsername": "Enter your username",
+    "enterPassword": "Enter your password",
+    "confirmPassword": "Confirm your password",
+    "loggedOut": "Logged Out!",
+    "doYou": "Do you want to",
+    "checkingReauth": "Checking redirection authentication for"
+  },
+
+  "errors": {
+    "geolocation": "Gathering the current location is not supported on your browser.",
+    "ownership": "You do not have permission to access this private workstation. If you are the owner of the workstation, make sure you are logged in.",
+    "emptyUsernameAndPasswordLogin": "Please enter a non-empty username and password.",
+    "emptyUsernameAndPassword": "Please enter a non-empty username, password and confirm password.",
+    "nonMatchingPasswords": "Passwords do not match",
+    "loadVideoSrc": "Failed to load video source 😢",
+    "loadImgSrc": "Failed to load image source 😢",
+    "loadWeather": "Failed to load the weather 😢",
+    "loadNews": "Failed to load the news 😢"
+  },
+
+  "success": {
+    "userCreated": "User {{ user }} created! You can now login.",
+    "savedWorkstation": "Successfully saved workstation",
+    "createdWorkstation": "Successfully created new workstation",
+    "deleteWorkstation": "Successfully deleted workstation"
+  },
+
+  "components": {
+    "missing": {
+      "name": "Missing",
+      "description": "This position is free, drag a component here or click one of the component chips above. If you don't select a component, the partner component will expand into here."
+    },
+    "position": {
+      "name": "Position",
+      "description": "The placement the component will be placed"
+    },
+    "news": {
+      "name": "News",
+      "description": "Provides a way of displaying the latest news based on a country and optional category.",
+      "configurations": {
+        "country": { "name": "Country", "description": "The country to provide the news about." },
+        "category": {
+          "name": "Category",
+          "description": "The category of the news (required to be in english)."
+        }
+      }
+    },
+    "weather": {
+      "name": "Weather",
+      "description": "Provides a way of displaying the weather of a city and optional country code.",
+      "configurations": {
+        "city": { "name": "City", "description": "The city to gather the weather for." },
+        "code": {
+          "name": "Code",
+          "description": "The optional country code to focus on a single country (due to many countries having the same city names)."
+        }
+      }
+    },
+    "countdown": {
+      "name": "Countdown",
+      "description": "Provides a way of displaying a countdown, supporting a countdown to start and to end.",
+      "configurations": {
+        "title": { "name": "Title", "description": "The title or name of the countdown, e.g New Year." },
+        "start_date": { "name": "Start Date", "description": "The starting date of the countdown." },
+        "end_date": { "name": "End Date", "description": "The ending date of the countdown." },
+        "start_time": { "name": "Start Time", "description": "The starting time of the countdown." },
+        "end_time": { "name": "End Time", "description": "The ending time of the countdown." }
+      }
+    },
+    "location": {
+      "name": "Location",
+      "description": "Provides a way of displaying a location on a map on the page.",
+      "configurations": {
+        "current_location": "Set Current Location",
+        "zoom": { "name": "Zoom", "description": "The Zoom number of how much to zoom into the map." },
+        "map": {
+          "name": "Map",
+          "description": "The long and latitude of the current location, drag the marker to your selected location."
+        },
+        "show_pointer": {
+          "name": "Show Pointer",
+          "description": "Show the pointer on the loaded map."
+        }
+      }
+    },
+    "video": {
+      "name": "Video",
+      "description": "Provides a way of displaying a video on the page, with options for sound and endless playing.",
+      "configurations": {
+        "videoSource": {
+          "name": "Video Source",
+          "description": "The source of the video location, this has to be a website."
+        },
+        "videoLoop": {
+          "name": "Video Loop",
+          "description": "If the video should loop endlessly or should just stop after a single run."
+        },
+        "videoSound": { "name": "Video Sound", "description": "If the video sound should be played." }
+      }
+    },
+    "image": {
+      "name": "Image",
+      "description": "Provides a way of displaying a image on the page based on the provided source.",
+      "configurations": {
+        "imageSrc": {
+          "name": "Image Source",
+          "description": "The source of the website, this has to be a website."
+        }
+      }
+    }
+  }
+}

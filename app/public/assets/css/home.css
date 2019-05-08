@@ -1,0 +1,149 @@
+body {
+  background: white;
+}
+
+.top {
+  opacity: 1;
+  transition: all 0.75s ease;
+}
+
+.top section:first-child {
+  min-height: 811px;
+  padding: 58px 0 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.row {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  opacity: 0;
+  transition: all 0.75s ease;
+}
+
+.item {
+  margin: auto;
+}
+
+.left,
+.right {
+  opacity: 0;
+  transition: 1s cubic-bezier(0.25, 1, 0.25, 1) all;
+}
+
+.left h1 {
+  font-size: 50px;
+}
+
+.left h2 {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #464646;
+}
+
+.left-text {
+  max-width: 320px;
+  margin-top: 38px;
+  font-weight: bold;
+}
+
+.left-subheader {
+  color: var(--gray);
+}
+
+.left-top {
+  margin-bottom: 52px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #464646;
+}
+
+.left-footer {
+  margin-top: 48px;
+}
+
+.left-footer div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+.right iframe {
+  overflow: hidden;
+  border: 0;
+  width: 412px;
+  height: 442px;
+  margin-left: -60px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transform: scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg);
+}
+
+.right iframe::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  top: 0;
+  position: sticky;
+  height: 60px;
+  transition: opacity 0.5s ease, transform 0.5s ease, height 0.1s linear, padding 0.1s linear,
+    box-shadow 0.1s linear;
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .right iframe {
+    display: grid;
+    margin: auto;
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 723px) {
+  .languagepicker {
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .right iframe {
+    width: 370px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .left {
+    width: 95vw;
+  }
+
+  .right iframe {
+    width: 95vw;
+  }
+}

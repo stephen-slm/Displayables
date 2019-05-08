@@ -1,0 +1,31 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "linebreak-style": "off",
+    "no-param-reassign": "off",
+    "import/extensions": "off",
+    "no-new": "off",
+    "no-case-declarations": "off",
+    "no-restricted-globals": "off",
+    "no-useless-constructor": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+
+  "parser": "babel-eslint",
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "globals": {
+    "gapi": "readonly",
+    "FB": "readonly",
+    "google": "readonly"
+  }
+}

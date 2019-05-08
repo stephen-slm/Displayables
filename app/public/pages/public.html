@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400" />
+    <link rel="stylesheet" href="/assets/css/master.css" />
+    <link rel="stylesheet" href="/assets/css/management.css" />
+    <link rel="stylesheet" href="/assets/css/loading.css" />
+    <link rel="stylesheet" href="/assets/css/public.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="google-signin-client_id"
+      content="106110870683-g5pkhs20bo9c2f6kth7239i6q4cnr8or.apps.googleusercontent.com"
+    />
+    <title>Displayables - Management</title>
+  </head>
+
+  <body>
+    <div id="loading">
+      <div class="loading-spinner" id="loading-root">
+        <div class="loading-spinner-cube1"></div>
+        <div class="loading-spinner-cube2"></div>
+      </div>
+    </div>
+
+    <div id="app">
+      <nav class="topnav">
+        <div>
+          <a href="/"> <div class="nav-logotext nav-text">Displayables</div> </a>
+          <ul class="topnav-language languagepicker roundborders">
+            <li data-id="en"><img alt="English Flag" src="/assets/img/flags/english.png" />English</li>
+            <li data-id="fr"><img alt="French Flag" src="/assets/img/flags/franch.png" />Français</li>
+            <li data-id="it"><img alt="Italian Flag" src="/assets/img/flags/italy.png" />Italiano</li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="core-container-wrapper">
+        <div class="core-grid-container">
+          <div class="core-title nav-text">Public Layouts</div>
+          <div class="core-sub-title">
+            <input class="core-filter" placeholder="Filter by name" />
+          </div>
+          <div id="workstation-content" class="core-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <template id="workstation-info">
+      <div class="core-content-child elevation-one">
+        <div class="top-link">
+          <div class="top-link-delete"><i class="fas fa-trash"></i></div>
+          <button class="top-link-logo"><i class="fa fa-lock fa-2x"></i></button>
+          <div class="core-text">{{ name }}</div>
+          <div class="core-text core-created">created: 10:30 AM</div>
+        </div>
+        <div class="middle-link">
+          <div class="middle-link-col-text-going">? Components Used</div>
+          <div class="middle-link-col-text-going middle-link-col-text-not-going">? Slots Pending</div>
+        </div>
+        <button class="button-ripple bottom-link">View/Edit Workstation</button>
+      </div>
+    </template>
+
+    <script src="/assets/js/master.js" type="module"></script>
+    <script src="/assets/js/public.js" type="module"></script>
+    <script src="https://apis.google.com/js/api:client.js"></script>
+  </body>
+</html>
