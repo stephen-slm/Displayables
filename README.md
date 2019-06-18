@@ -10,6 +10,7 @@
 
 <h4 align="center">A configurable display based dashboard for creating content for unattended displays</h4>
 <h5 align="center">University Web-Scripting Project 50%</h5>
+<h6 align="center">Resulting grade: 86/100</h6>
 
 <p align="center">
   <a>
